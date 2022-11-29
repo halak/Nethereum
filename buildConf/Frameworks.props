@@ -1,13 +1,13 @@
 <Project>
   <PropertyGroup>
-    <TargetNet35>true</TargetNet35>
+    <TargetNet35>false</TargetNet35>
     <TargetNet461>false</TargetNet461>
     <TargetNet472>false</TargetNet472>
     <TargetNetCore>false</TargetNetCore>
-    <TargetNetStandard>false</TargetNetStandard>
+    <TargetNetStandard>true</TargetNetStandard>
     <TargetUnityNet461AOT>false</TargetUnityNet461AOT>
     <TargetUnityNet472AOT>false</TargetUnityNet472AOT>
-    <TargetUnityAOT>false</TargetUnityAOT>
+    <TargetUnityAOT>true</TargetUnityAOT>
     <TargetUnityAOT Condition="'$(TargetUnityNet461AOT)' == 'true' Or '$(TargetUnityNet472AOT)' == 'true'">true</TargetUnityAOT>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' != 'netstandard1.1'">1.6.1</NetStandardImplicitPackageVersion>
     <DefaultFrameworksUnitySupport Condition=" '$(TargetNet35)' == 'true' ">netstandard1.1;netstandard2.0;net35;net451;net461;netcoreapp2.1;netcoreapp3.1;net5.0</DefaultFrameworksUnitySupport>

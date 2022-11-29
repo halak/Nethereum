@@ -1,6 +1,6 @@
 #if !NET35
 using System;
-#if NETSTANDARD2_0_OR_GREATER || NETCOREAPP3_1_OR_GREATER || NET461_OR_GREATER || NET5_0_OR_GREATER
+#if false && (NETSTANDARD2_0_OR_GREATER || NETCOREAPP3_1_OR_GREATER || NET461_OR_GREATER || NET5_0_OR_GREATER)
 using Microsoft.Extensions.Logging;
 #endif
 using Nethereum.JsonRpc.Client.RpcMessages;
@@ -8,7 +8,7 @@ using Nethereum.JsonRpc.Client.RpcMessages;
 namespace Nethereum.JsonRpc.Client
 {
 
-#if NETSTANDARD1_1 || NET451 || NETCOREAPP2_1
+#if true || NETSTANDARD1_1 || NET451 || NETCOREAPP2_1
       public enum LogLevel
     {
 

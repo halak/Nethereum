@@ -1,3 +1,7 @@
+This fork is for Unity-2020 build.
+
+---
+
 # Nethereum
  [![Documentation Status](https://readthedocs.org/projects/nethereum/badge/?version=latest)](https://nethereum.readthedocs.io/en/latest/) [![NuGet version](https://badge.fury.io/nu/nethereum.web3.svg)](https://badge.fury.io/nu/nethereum.web3)
 
